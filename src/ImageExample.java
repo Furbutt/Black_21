@@ -11,8 +11,8 @@
 
 import java.awt.*;
 import java.applet.*;
-
 import java.net.*;
+@SuppressWarnings("serial")
 public class ImageExample extends Applet
 {
 	Image my_gif;

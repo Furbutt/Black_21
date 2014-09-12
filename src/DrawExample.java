@@ -12,6 +12,7 @@
 import java.applet.*;
 import java.awt.*;
 
+@SuppressWarnings("serial")
 public class DrawExample extends Applet
 {
 	Font bigFont;

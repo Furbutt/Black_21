@@ -20,6 +20,7 @@ import java.net.*;
 
 
 
+@SuppressWarnings("serial")
 public class Gabriel extends Applet implements MouseListener
 {
 	int xpos;
@@ -56,10 +57,10 @@ public class Gabriel extends Applet implements MouseListener
  	  bigFont=new Font("Times New Roman",Font.BOLD,32);
  	  artist=new Font("Arial",Font.PLAIN,24);
  	  stopbutton=new Font("Arial",Font.BOLD,16);
-	  kingofamarillo=getAudioClip(getDocumentBase(),"02_King_Of_Amarillo.wav");
-	  bestofme=getAudioClip(getDocumentBase(),"05_Best_Of_Me.wav");
-	  cycles=getAudioClip(getDocumentBase(),"slasher.wav");
-	  about_you=getAudioClip(getDocumentBase(),"about_you.wav");
+	  kingofamarillo=getAudioClip(getDocumentBase(),"../res/02_King_Of_Amarillo.wav");
+	  bestofme=getAudioClip(getDocumentBase(),"../res/05_Best_Of_Me.wav");
+	  cycles=getAudioClip(getDocumentBase(),"../res/slasher.wav");
+	  about_you=getAudioClip(getDocumentBase(),"../res/about_you.wav");
 	  playing1=true;
 	  addMouseListener(this);
 	  mt = new MediaTracker(this);
@@ -68,11 +69,11 @@ public class Gabriel extends Applet implements MouseListener
 	  }
 	  catch(Exception e){}
 
-	  my_gif=getImage(base,"pokedex.jpg");
-	  issues_cover=getImage(base,"black_diamonds.jpg");
-	  adtr=getImage(base,"common_courtesy.jpg");
-	  rustie=getImage(base,"rustie.jpg");
-	  xxyyxx=getImage(base,"xxyyxx.jpg");
+	  my_gif=getImage(base,"../res/pokedex.jpg");
+	  issues_cover=getImage(base,"../res/black_diamonds.jpg");
+	  adtr=getImage(base,"../res/common_courtesy.jpg");
+	  rustie=getImage(base,"../res/rustie.jpg");
+	  xxyyxx=getImage(base,"../res/xxyyxx.jpg");
 
 	  mt.addImage(my_gif,1);
 	  mt.addImage(issues_cover,2);

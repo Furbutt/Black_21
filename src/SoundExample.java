@@ -12,6 +12,7 @@
 import java.applet.*;
 import java.awt.event.*;
 import java.awt.*;
+@SuppressWarnings("serial")
 public class SoundExample extends Applet implements MouseListener
 {
 	AudioClip soundFile1;

@@ -13,7 +13,8 @@ import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class MouseClickExample extends Applet implements MouseListener
+@SuppressWarnings("serial")
+public class MP3 extends Applet implements MouseListener
 {
 	int xpos;
 	int ypos;
